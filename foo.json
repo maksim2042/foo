@@ -1,52 +1,64 @@
 {
 	"nodes": [{
-			"name": "Reaction Time (b)"
+			"name": "0 Reaction Time (b)"
 		}, {
-			"name": "Focus (b)"
+			"name": "1 Focus (b)"
 		}, {
-			"name": "Short Term Memory (b)"
+			"name": "2 Short Term Memory (b)"
 		}, {
-			"name": "Semantic Similarity (b)"
+			"name": "3 Semantic Similarity (b)"
 		}, {
-			"name": "Heart Rate (b)"
+			"name": "4 Heart Rate (b)"
 		}, {
-			"name": "VO2 Max (b)"
+			"name": "5 VO2 Max (b)"
 		},
 		{
-			"name": "Exercise Intensity"
+			"name": "6 Exercise Intensity"
 		}, {
-			"name": "Exercise Time"
+			"name": "7 Exercise Time"
 		}, {
-			"name": "Exercise Type"
+			"name": "8 Exercise Type"
 		}, {
-			"name": "Exercise Type"
+			"name": "9 Exercise Type"
 		},
 
 		{
-			"name": "Reaction Time (a)"
+			"name": "10 Reaction Time (a)"
 		}, {
-			"name": "Focus (a)"
+			"name": "11 Focus (a)"
 		}, {
-			"name": "Short Term Memory (a)"
+			"name": "12 Short Term Memory (a)"
 		}, {
-			"name": "Semantic Similarity (a)"
+			"name": "13 Semantic Similarity (a)"
 		}, {
-			"name": "Heart Rate (a)"
+			"name": "14 Heart Rate (a)"
 		}, {
-			"name": "VO2 Max (a)"
+			"name": "15 VO2 Max (a)"
 		}
 	],
 	"links": [{
 		"source": 0,
-		"target": 1,
-		"value": 1
+		"target": 6,
+		"value": 0.3
 	}, {
-		"source": 1,
-		"target": 2,
+		"source": 0,
+		"target": 7,
 		"value": 0.597
 	}, {
-		"source": 1,
-		"target": 3,
+		"source": 0,
+		"target": 8,
+		"value": 0.7
+	},{
+		"source": 0,
+		"target": 9,
 		"value": 26.862
+	}, {
+		"source": 1,
+		"target": 8,
+		"value": 0.7
+	},{
+		"source": 1,
+		"target": 9,
+		"value": 0.7
 	}]
 } 
