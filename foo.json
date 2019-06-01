@@ -1,17 +1,44 @@
 {
 	"nodes": [{
-		"name": "Agricultural 'waste'"
+		"name": "Reaction Time (b)"
 	}, {
-		"name": "Bio-conversion"
+		"name": "Focus (b)"
+	},{
+		"name": "Short Term Memory (b)"
+	},{
+		"name": "Semantic Similarity (b)"
 	}, {
-		"name": "Liquid"
+		"name": "Heart Rate (b)"
 	}, {
-		"name": "Losses"
-	}],
+		"name": "VO2 Max (b)"
+	}, 	  
+	{
+		"name": "Exercise Intensity"
+	}, 	{
+		"name": "Exercise Time"
+	}, 	{
+		"name": "Exercise Type"
+	}, {
+		"name": "Exercise Type"
+	}, 
+			  
+	{
+		"name": "Reaction Time (a)"
+	}, {
+		"name": "Focus (a)"
+	},{
+		"name": "Short Term Memory (a)"
+	},{
+		"name": "Semantic Similarity (a)"
+	}, {
+		"name": "Heart Rate (a)"
+	}, {
+		"name": "VO2 Max (a)"
+	}, ],
 	"links": [{
 		"source": 0,
 		"target": 1,
-		"value": 124.729
+		"value": 1
 	}, {
 		"source": 1,
 		"target": 2,
